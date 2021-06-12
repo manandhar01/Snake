@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="instructions">
+			<p>Instructions:<br>Avoid hitting the wall and biting yourself. The snake will grow in length as you eat the food scattered across the field.</p>
+			<p>
+				Movement Controls:
+				<ul>
+					<li>&larr; : Move left</li>
+					<li>&uarr; : Move up</li>
+					<li>&rarr; : Move right</li>
+					<li>&darr; : Move downt</li>
+				</ul>
+			</p>
+		</div>
+		<div class="canvasContainer">
+			<div class="timer">
+				<canvas id="timer" height="40", width="400">
+					Your browser does not support canvas tag..
+					Please upgrade your browser to enjoy the game..
+					Thank you..
+				</canvas>
+			</div>
+			<div class="field">
+				<canvas id="field" height="750" width="750">
+					Your browser does not support canvas tag..
+					Please upgrade your browser to enjoy the game..
+					Thank you..
+				</canvas>
+			</div>
+		</div>
+		<div class="score">
+			<canvas id="score" height="300" width="300">
+				Your browser does not support canvas tag..
+				Please upgrade your browser to enjoy the game..
+				Thank you..
+			</canvas>
+		</div>
+	</div>
+
+	<div class="menuContainer">
+		<div class="menu">
+			<p>Menu</p>
+			<div class="play">Play</div>
+			<div class="quit">Quit</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
